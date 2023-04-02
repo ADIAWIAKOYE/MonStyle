@@ -33,7 +33,7 @@ btnsubComand_form.addEventListener('click', ()=>{
     var err = document.querySelector('#errr');
     var verimess = encodeURIComponent("Bonjour, \nJe suis "+v2+" "+v1+"\n\n");
     if(v1!="" && v2!="" && v3!="" && v4!=""){
-    window.location = "mailto:adiawiakoye.le10@gmail.com?subject="+v3+"&body="+verimess+v4;
+    window.location = "mailto:Ibrahimsy265@gmail.com?subject="+v3+"&body="+verimess+v4;
         com_nom.value = "";
         com_pre.value = "";
         com_obj.value = "";
@@ -83,7 +83,7 @@ var inputsubmit = document.querySelector('.inputsubmit').addEventListener("click
         var err = document.querySelector('.err');
         var verimess = encodeURIComponent("Bonjour, \nJe suis "+v2+" "+v1+"\n\n");
     if(v1!="" && v2!="" && v3!="" && v4!=""){
-        window.location = "mailto:adiawiakoye.le10@gmail.com?subject="+v3+"&body="+verimess+v4;
+        window.location = "mailto:Ibrahimsy265@gmail.com?subject="+v3+"&body="+verimess+v4;
         FirstName.value = "";
         Names.value = "";
         objetMail.value = "";
@@ -103,7 +103,7 @@ figcap.forEach(element => {
     element.innerHTML = "Agrandir";
 });
 contact_us.addEventListener('click', ()=>{
-    contact_us.href="tel:+22375468913";
+    contact_us.href="tel:+22393963145";
 })
 contains_menu.addEventListener('click', ()=>{
     contains_menu.classList.toggle('active');
