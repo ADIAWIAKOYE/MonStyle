@@ -123,7 +123,8 @@ body{
 
 /* Style cocernant le corps du site */
 .contain_landing_page{
-    background: url(../img/188900316.jpg), #000;
+    background-image: url(../img/188900316.jpg);
+    background-repeat: no-repeat;
     min-height: 100px;
     height: 500px;
     margin: 0 100px;
